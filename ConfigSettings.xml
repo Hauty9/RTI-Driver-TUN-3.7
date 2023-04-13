@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<category name="Connection" description="The parameters that control the communication between the XP-8 and the unit">
+    <setting type="serialport" name="Serial Port" variable="SerialPort" description="Select the serial port on the XP-8 that the unit is hooked up to." />
+    <setting type="mcinteger" name="Baud Rate" default="9600" variable="BaudRate" description="Select the baud rate to use" >
+      <choice name="1200" value="1200"/>
+      <choice name="2400" value="2400"/>
+      <choice name="4800" value="4800"/>
+      <choice name="9600" value="9600"/>
+    </setting>
+  </category>
+  <category name="Debug Settings" description="Driver debug options" hidden="true">
+    <setting type="boolean" name="Enable Trace" variable="DebugTrace" description="Enable verbose debug output" />
+  </category>
+  
+</configuration>

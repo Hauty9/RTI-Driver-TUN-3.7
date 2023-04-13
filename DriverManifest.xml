@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<driverManifest>
+<driver author="Braden Hautman" configSettingsStream="ConfigSettings.xml" copyright="2022" deviceManufacturer="Integra" deviceModel="Tun 3.7" driverVersion="1.1" id="{f8713071-e06b-43d2-9da2-fc236c9637ae}" minimumRuntimeVersion="1" minimumSoftwareVersion="7.0" name="Integra TUN 3.7" processorType="XP-8" systemFunctionsStream="SystemFunctions.xml" systemVariablesStream="SystemVariables.xml" helpTextStream="instructions.rtf">
+<processorScript stream="TUN3.7.js"/>
+<package>
+<output filename="TUN3.7 Final" public="false"/>
+<description>Serial Driver For TUN3.7</description>
+</package>
+</driver>
+</driverManifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<functions>
+	<category name="Scan">
+		<function name="Scan" export="Scan">
+			<parameter name="Scan UpDown" type="boolean" false="Down" true="Up" />
+		</function>	
+	</category>
+				
+<category name="Power">
+	<function name="Power" export="PowerOnOff">
+		<parameter name="Power OnOff" type="boolean" false="Standby" true="On" />
+	</function>			
+</category>
+
+<category name="DirectTune">
+		<function name="Tune" export="DTune">
+
+			<parameter name="Direct Tune (10210 Format)" type="string" default="1" />
+		</function>
+</category>
+
+<category name="HD Subs">
+		<function name="HDSubs" export="HDS">
+			<parameter name="HD Subs *no more than 8* " type="integer" default="1" />
+		</function>
+</category>
+
+</functions>

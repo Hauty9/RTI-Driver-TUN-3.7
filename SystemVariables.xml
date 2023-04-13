@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<variables>
+  
+  <category name="Power">
+  	<variable name="Power" sysvar="PWR" type="boolean" format="B:On:Off"/>
+  </category>
+  <category name="Frequency">
+    <variable name="Frequency" sysvar="Freq" type="integer" sample="1021"  />
+  </category>
+  <category name="Artist">
+    <variable name="Artist" sysvar="Artist" type="string" sample="Blink 182"/>
+  </category>
+     <category name="Song">
+    <variable name="Song" sysvar="Song" type="string" sample="Damnit (Growing UP)"/>
+  </category>
+  <category name="Station">
+    <variable name="Station" sysvar="Station" type="string" sample="KDWB"/>
+    </category>
+    <category name="HD Yes/No">
+    <variable name="HD Yes/No" sysvar="HDYN" type="boolean" format="B:Not HD:HD"/>
+  </category>
+  <category name="Communications">
+    <variable name="Last Serial Data" sysvar="LastSerialDataSysvar" type="string" sample="Last RX string." />
+  </category>
+  <category name= "HD Avail">
+  	<variable name="HD Subs Available" sysvar="HDSubs" type="integer" sample="6"/>
+  </category>
+    <category name= "HD Number">
+  	<variable name="HD Sub Number" sysvar="HDNum" type="integer" sample="6"/>
+  </category>
+</variables>
+
+
